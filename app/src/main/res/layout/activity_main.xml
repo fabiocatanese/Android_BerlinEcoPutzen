@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8F7C5"
+    >
+
+<RelativeLayout
+    android:paddingTop="32dp"
+    android:id="@+id/titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/bckground" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerInside"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:id="@+id/my_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="BerlinEcoPutzen"
+        android:textSize="48dp"
+        android:textColor="#006C6D"
+        android:paddingTop="30dp"
+        android:paddingLeft="8dp"
+        />
+</RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/titlebar"
+       android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/my_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buchen Sie jetzt Ihre Reinigungskraft ab 14 € pro Stunde!"
+        android:textSize="28dp"
+        android:textColor="#006C6D"/>
+
+       <TextView
+           android:id="@+id/my_text4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Besuchen Sie uns auf:"
+           android:textSize="22dp"
+           android:layout_below="@id/my_text2"
+           android:paddingTop="32dp"
+           android:paddingLeft="8dp"
+           android:textColor="#006c6d"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"/>
+
+       <TextView
+           android:id="@+id/my_text3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="www.berlinecoputzen.com"
+           android:autoLink="web" nk="http://www.berlinoecoputzen.com"
+           android:textSize="32dp"
+           android:layout_below="@id/my_text4"
+           android:paddingTop="32dp"
+           android:textColor="#006c6d"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           />
+
+       <TextView
+           android:id="@+id/my_text5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Oder schreiben Sie uns!"
+           android:textSize="22dp"
+           android:layout_below="@id/my_text3"
+           android:paddingTop="32dp"
+           android:textColor="#006c6d"
+           android:textStyle="bold"
+           android:paddingLeft="8dp"
+           android:textAlignment="center"/>
+
+
+       <TextView
+           android:id="@+id/my_text6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="   berlinecoputzen@gmail.com"
+           android:textSize="18dp"
+           android:autoLink="email"
+           android:layout_below="@id/my_text5"
+           android:paddingTop="16dp"
+           android:textColor="#006c6d"
+           android:textStyle="bold"
+           android:paddingLeft="8dp"
+           android:textAlignment="center"
+           android:drawableLeft="@drawable/ic_mail_outline_black_18dp"/>
+
+   </RelativeLayout>
+
+</RelativeLayout>
+
+    </ScrollView>
